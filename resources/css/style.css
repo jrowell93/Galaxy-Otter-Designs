@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(../images/body.jpg)
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:100px;
+    background-color: white;
+    opacity: 0.9;
+    padding-left: 225px;
+}
+header .name{
+    padding-left: 15px;
+    font-family: 'Special Elite', cursive;
+    font-size: 50px;
+    color:#4D2490;
+}
+.logo{
+    height:85px;
+    padding:20px;
+}
+
+.aboutme{
+    background-color: transparent;
+    height:475px;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.me{
+    height:200px;
+    order:1;
+    margin-top: 30px;
+}
+h1{
+   font-family: 'Special Elite', cursive;
+   font-size: 50px;
+    text-align: center;
+   color:white; 
+    order:2;
+   
+}
+p{
+    font-family: Arial;
+    font-size: 20px;
+    color:white;
+    order:3;
+    text-align: center;
+    padding-bottom: 30px;
+    width:60%;
+}
